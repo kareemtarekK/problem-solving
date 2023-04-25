@@ -1,13 +1,13 @@
-// specialmix(110,200,310010)
-// specialmix("fg","kjafg","df")
-//  highr order function ... the higher order function is function that accept
-//  function as a parameter and can return function.
-//  (map)   (filter)   (reduce)    (forEach)
-//  map / is a higher order function that accept two parameter 
-//  the first is call back function that accept three parameter (element , index , array)
-//  the second is this argument
-//  some example about map.s
-//  an example to add each element of array on itself.
+/*
+ highr order function ... the higher order function is function that accept
+ function as a parameter and can return function.
+ (map)   (filter)   (reduce)    (forEach)
+ map / is a higher order function that accept two parameter 
+ the first is call back function that accept three parameter (element , index , array)
+ the second is this argument
+ some example about map.s
+ an example to add each element of array on itself.
+ */
 let arrnumber=[10,20,30,40,50];
 let newarray=[];
 for(let i=0;i<arrnumber.length;i++){
